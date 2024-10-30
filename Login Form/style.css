@@ -1,0 +1,221 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family:sans-serif;
+}
+
+
+body{
+  background: url(img/bac2.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.wrapper{
+  background: transparent;
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 10px rgba(0,0, 0, 0.2);
+  padding: 30px 40px;
+  width: 420px;
+  border: 1px solid rgb(135, 135, 103);
+  color: #fff;
+  border-radius: 10px;
+}
+.wrapper h1{
+  text-align: center;
+  font-size: 36px;
+}
+
+.wrapper  .input-box{
+  position: relative;
+  width: 100%;
+  height: 50px;
+  margin: 30px 0;
+
+}
+ .input-box  input {
+  height: 100%;
+  width: 100%;
+  border: none;
+  outline: none;
+  background: transparent;
+  border: 2px solid rgb(135, 135, 103);
+  border-radius: 40px;
+  font-size: 14px;
+  color: #fff;
+  padding: 20px 45px 20px 20px;
+}
+.input-box  input::placeholder{
+  color: #ffff;
+}
+.input-box i {
+  position: absolute;
+  right: 20px;
+  top: 12.5px;
+  transform: translate(-50%);
+  font-size: 20px;
+}
+
+.remember-forgot{
+  display: flex;
+  justify-content: space-between;
+  font-size: 14.5px;
+  margin:15px;
+}
+
+.remember-forgot label input{
+  accent-color: #ffff;
+  margin-right: 3px;
+}
+.remember-forgot a{
+  text-decoration: none;
+  color: #ffff;
+}
+.remember-forgot  a:hover{
+  text-decoration: underline;
+}
+
+.btn{
+width: 100%;
+color: #333;
+background:#fff;
+height: 45px;
+border-radius: 40px;
+font-size: 16px;
+border: none;
+outline: none;
+box-shadow: 0 0 10px rgba(0, 0,0, .1);
+cursor: pointer;
+font-weight: 600;
+}
+.register{
+ text-align: center;
+  font-size: 14.5px;
+  margin: 20px 0 15px;
+}
+
+.register a{
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.register a:hover{
+  text-decoration: underline;
+}
+ 
+
+/*
+  body{
+    background:url(img/bac2.jpg) ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+  }
+
+  form h1{
+    text-align: center;
+    font-size: 2rem;
+
+  }
+
+  .wrapper{
+    background: transparent;
+    backdrop-filter: blur(45px);
+    width:420px;
+    padding: 30px 40px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: rgba(199, 189, 189, 0.2);
+    border: 1px solid rgb(135,135,103);
+  }
+
+  .input-btn{
+    position: relative;
+    margin: 30px 0;
+    width: 100%;
+    height: 50px;
+  }
+.input-btn input{
+  height: 100%;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  padding: 20px 40px 20px 20px;
+  color: whitesmoke;
+  background: transparent;
+  border: 1px solid;
+
+}
+.input-btn ::placeholder{
+  color: whitesmoke;
+}
+.input-btn i{
+  position: absolute;
+  right: 20px;
+  top: 15px;
+  font-size: 20px;
+  transform: translate(-50%);
+
+}
+.remember-forgot{
+  justify-content:space-between;
+  margin: 15px;
+  display: flex;
+  font-size: 14.5px;
+}
+.remember-forgot label input{
+  margin-right: 3px;
+  accent-color: #fff;
+}
+
+.remember-forgot a{
+  text-decoration: none;
+  color: whitesmoke;
+  font-weight: bold;
+  margin-left: 70px;
+}
+.remember-forgot a:hover{
+  text-decoration: underline;
+}
+
+.submit{
+  width: 100%;
+  height: 30px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  border: 1px solid whitesmoke;
+  color:#333;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.register{
+  display: flex;
+  justify-content: space-between;
+  margin: 15px;
+  font-size: 14.5px;
+  padding:15px 0;
+}
+.register a{
+  text-decoration: none;
+  font-weight: bold;
+  color: whitesmoke;
+  margin-left: 88px;
+}
+.register a:hover{
+  text-decoration: underline;
+} */
